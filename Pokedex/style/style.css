@@ -1,0 +1,139 @@
+.pokelogo{
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.navcolor{
+   background:  #c21e27;
+}
+
+.btn-danger {
+    border: 1px solid #f44336;
+    background-color: #f9f9f9;
+}
+
+.busqueda{                      /*Barra busqueda pokemones*/
+    width: 524px;
+}
+
+.pokemon-nuevo-btn{             /*Boton agregar pokemon*/
+    margin-left: 389px;
+}
+
+
+.imagen-pokemon{
+    width: 10em;
+    height: auto;
+}
+
+.imagen-tipo{
+    width: 2em;
+    height: auto;
+}
+
+.card{
+    height: 5em;
+    background: rgba(207, 205, 205, 0.55) !important;
+    cursor: pointer;
+}
+.card:hover {
+    transform: scale(1.05); /* Hace un zoom al pasar el ratón */
+    transition: transform 0.3s ease; /* Agrega una transición suave */
+    background-color: #ff0000; /* Cambia el color de fondo a rojo */
+}
+
+
+
+/* Estilos para los detalles del Pokémon */
+.pokemon-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.pokemon-details img.imagen-pokemon {
+    width: 150px; /* Tamaño de la imagen del Pokémon */
+    height: auto;
+    margin-right: 20px; /* Espacio entre la imagen y los detalles */
+}
+
+.pokemon-info {
+    flex: 1;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    background-color: #f9f9f9; /* Color de fondo de los detalles */
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Sombra para los detalles */
+}
+
+.pokemon-info h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.pokemon-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pokemon-info ul li {
+    margin-bottom: 5px;
+    font-size: 1.2em;
+}
+
+.pokemon-info ul li img.imagen-tipo {
+    width: 1.5em; /* Tamaño de las imágenes de tipo */
+    height: auto;
+    margin-right: 5px; /* Espacio entre las imágenes de tipo */
+}
+
+
+/* VISTA detalle.php */
+
+.back-btn {
+    position: absolute;
+    width: 3%;
+    height: auto;
+    margin-left: 25%;
+    margin-top: 7%;
+}
+
+.pokemon-nombre {
+    font-size: 350%;
+}
+
+.pokemon-detalle {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background: #f6f6f6;
+}
+
+
+.imagen-tipo:hover {
+    cursor:auto;
+    transform: scale(1.2); /* Cambia el tamaño de la imagen al hacer hover */
+}
+
+.container-nombreyfoto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-info {
+    width: 15%;
+    margin-left: 5%;
+}
+
+.container-info * {
+    font-size: 125%;
+    margin-top:1rem;
+}
+
+.pokemon-altpeso {
+    font-weight: bold;
+}
